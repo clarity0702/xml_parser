@@ -9,7 +9,6 @@ int main() {
 
     Parser parser;
     parser.load_file("../test.xml");
-
     Xml x = parser.parse();
     LOG(x.str())
     return 0;
